@@ -1,0 +1,19 @@
+{
+  "name": "student-voting-blockchain-contracts",
+  "version": "0.1.0",
+  "description": "Hardhat workspace for the student voting smart contracts (added in later phases)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "check": "hardhat run scripts/checkSetup.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4"
+  }
+}
